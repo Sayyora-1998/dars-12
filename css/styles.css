@@ -6,9 +6,35 @@ html{
 *:: after{
 	box-sizing: inherit;
 }
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background-color: #BBCFDB;
 }
 .wrapper{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+
 	
+	border:1px solid green;
+}
+.wrapper-list h2{
+	color: white;
+	font-size: 20px;
+
+	text-transform: uppercase;
+	margin-right: 198px;
+}
+.wrapper-list {
+	display: flex;
+	align-items: center;
+	background-color: #5F8AD1;
+	padding: 14px;
+}
+.img{
+	margin: 0px 5px;
 }
